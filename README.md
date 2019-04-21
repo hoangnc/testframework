@@ -1,2 +1,2 @@
 # testframework
-- Automation test framework using Specflow, Selenium Webdriver
+- Automation test framework using .NET Core, Specflow, Selenium Webdriver

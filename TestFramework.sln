@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{B1B68929-7B2B-495A-9DB2-B02528D8D8A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{7917EF76-26EF-4B98-9C5C-BE5206E008CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSmart.Test.Automation.Core", "HSmart.Test.Automation.Core\HSmart.Test.Automation.Core.csproj", "{F751D9E2-2C33-4E1F-85AC-3277D60A2116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSmart.Test.Automation.Tests.StepDefinitions", "HSmart.Test.Automation.Tests.StepDefinitions\HSmart.Test.Automation.Tests.StepDefinitions.csproj", "{0DDCBA0A-71AA-4C93-9CED-3B5B2585EBF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSmart.Test.Automation.Tests.AngularJs.StepDefinitions", "HSmart.Test.Automation.Tests.AngularJs.StepDefinitions\HSmart.Test.Automation.Tests.AngularJs.StepDefinitions.csproj", "{C430BE69-166D-45FD-B931-1E0100B674DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSmart.Test.Automation.Tests.ReactJs.StepDefinitions", "HSmart.Test.Automation.Tests.ReactJs.StepDefinitions\HSmart.Test.Automation.Tests.ReactJs.StepDefinitions.csproj", "{1E4BB0F4-52A2-4DA7-A0AA-7C808D506201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSmart.Test.Automation.Tests.RunTest", "HSmart.Test.Automation.Tests.RunTest\HSmart.Test.Automation.Tests.RunTest.csproj", "{30F8F6EE-AFF0-4DFC-A173-D12222F22F2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F751D9E2-2C33-4E1F-85AC-3277D60A2116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F751D9E2-2C33-4E1F-85AC-3277D60A2116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F751D9E2-2C33-4E1F-85AC-3277D60A2116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F751D9E2-2C33-4E1F-85AC-3277D60A2116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDCBA0A-71AA-4C93-9CED-3B5B2585EBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDCBA0A-71AA-4C93-9CED-3B5B2585EBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDCBA0A-71AA-4C93-9CED-3B5B2585EBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDCBA0A-71AA-4C93-9CED-3B5B2585EBF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C430BE69-166D-45FD-B931-1E0100B674DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C430BE69-166D-45FD-B931-1E0100B674DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C430BE69-166D-45FD-B931-1E0100B674DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C430BE69-166D-45FD-B931-1E0100B674DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4BB0F4-52A2-4DA7-A0AA-7C808D506201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4BB0F4-52A2-4DA7-A0AA-7C808D506201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4BB0F4-52A2-4DA7-A0AA-7C808D506201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4BB0F4-52A2-4DA7-A0AA-7C808D506201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F8F6EE-AFF0-4DFC-A173-D12222F22F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F8F6EE-AFF0-4DFC-A173-D12222F22F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F8F6EE-AFF0-4DFC-A173-D12222F22F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F8F6EE-AFF0-4DFC-A173-D12222F22F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F751D9E2-2C33-4E1F-85AC-3277D60A2116} = {7917EF76-26EF-4B98-9C5C-BE5206E008CB}
+		{0DDCBA0A-71AA-4C93-9CED-3B5B2585EBF1} = {7917EF76-26EF-4B98-9C5C-BE5206E008CB}
+		{C430BE69-166D-45FD-B931-1E0100B674DD} = {7917EF76-26EF-4B98-9C5C-BE5206E008CB}
+		{1E4BB0F4-52A2-4DA7-A0AA-7C808D506201} = {7917EF76-26EF-4B98-9C5C-BE5206E008CB}
+		{30F8F6EE-AFF0-4DFC-A173-D12222F22F2B} = {7917EF76-26EF-4B98-9C5C-BE5206E008CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A25F4978-CC6F-4664-92BF-BC925724763F}
+	EndGlobalSection
+EndGlobal

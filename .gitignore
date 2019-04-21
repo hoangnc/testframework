@@ -1,0 +1,13 @@
+*.vs
+*bin
+*obj
+.vs/
+/.vs
+*.csproj.user
+*_BuildLog.txt
+*.log
+.idea
+*.dll
+**/*.userprefs
+*.DotSettings.user
+**/coverageReport.xml
